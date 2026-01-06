@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Black Clydesdale ($BBC)</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+      background: #050505;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      padding: 18px 42px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #050505;
+      border-bottom: 1px solid #1a1a1a;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 22px;
+      font-size: 15px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      opacity: 0.85;
+    }
+
+    nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: 40px;
+      align-items: center;
+      padding: 90px 20px 80px;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .hero-text h2 {
+      font-size: 52px;
+      line-height: 1.05;
+      margin-bottom: 18px;
+      font-weight: 850;
+    }
+
+    .hero-text p {
+      font-size: 19px;
+      max-width: 620px;
+      opacity: 0.9;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid #262626;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      opacity: 0.85;
+      margin-bottom: 16px;
+    }
+
+    .hero-badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, #ffffff, #777);
+    }
+
+    .hero-silhouette {
+      position: relative;
+      width: 100%;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+
+    .hero-silhouette img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .section {
+      padding: 70px 20px;
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    .section h3 {
+      font-size: 30px;
+      margin-bottom: 18px;
+      text-align: center;
+      font-weight: 750;
+    }
+
+    .section p {
+      font-size: 17px;
+      opacity: 0.9;
+    }
+
+    .section-inner {
+      background: radial-gradient(circle at top, #141414 0, #050505 55%);
+      border-radius: 16px;
+      border: 1px solid #1c1c1c;
+      padding: 28px 24px;
+    }
+
+    .section-inner.lore p {
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 36px 20px 40px;
+      background: #050505;
+      border-top: 1px solid #171717;
+      opacity: 0.75;
+      font-size: 13px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 14px 16px;
+      }
+
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 52px 16px 56px;
+      }
+
+      .hero-text h2 {
+        font-size: 36px;
+      }
+
+      .hero-text p {
+        font-size: 16px;
+      }
+
+      nav a {
+        margin-left: 14px;
+        font-size: 13px;
+      }
+
+      .section {
+        padding: 52px 16px;
+      }
+
+      .section-inner {
+        padding: 22px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>$BBC</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#lore">Lore</a>
+    <a href="#socials">Socials</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <div class="hero-badge-dot"></div>
+        <span>Big Black Clydesdale · $BBC</span>
+      </div>
+      <h2>$BBC</h2>
+      <p>
+        The most unstoppable meme token galloping across the blockchain. Pure power, dark legend, and unstoppable
+        momentum — all carried by a towering Big Black Clydesdale charging through the blockchain.
+      </p>
+    </div>
+
+    <div class="hero-silhouette" aria-hidden="true">
+      <img src="clyedsdale-silhouette.png" alt="Rearing Clydesdale silhouette facing left" />
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h3>What is $BBC?</h3>
+    <div class="section-inner">
+      <p>
+        Not your typical $BBC, this Big Black Clydesdale is a meme token for people who want to be taken on a journey by an iconic,
+        unforgettable and unstoppable $BBC. A community where people can come together to support the ultimate $BBC....
+      </p>
+    </div>
+  </section>
+
+  <section id="lore" class="section">
+    <h3>The legend of the Black Clydesdale</h3>
+    <div class="section-inner lore">
+      <p>
+        For centuries, whispers told of a rare and mighty Black Clydesdale — a colossal horse said to appear
+        only when fortune was about to change. Its coat was darker than midnight and its stride shook the earth
+        beneath it. Villages that witnessed its thunderous arrival believed prosperity would follow in its wake.
+        Emerging in the year of the horse that legend rides again as $BBC, a meme channeling the power, mystery, and unstoppable drive of
+        this mythical beast into the heart of the blockchain.....No saddle required
+      </p>
+    </div>
+  </section>
+
+<section id="socials" class="section">
+  <h3>Socials & links</h3>
+  <div class="section-inner">
+    <p style="margin-bottom:8px; opacity:0.9;">
+      Plug into the herd. Follow the journey, watch the legend grow, and ride this $BBC.
+    </p>
+    <p style="font-size:15px; opacity:0.85;">
+      X (Twitter): 
+      <span style="opacity:0.7;">
+        <a href="https://x.com/bigblackclydes?s=21" target="_blank">https://x.com/bigblackclydes?s=21</a>
+      </span>
+      <br>
+      Telegram: <span style="opacity:0.7;">coming soon</span><br>
+      Pump.fun / DEX link: <span style="opacity:0.7;">coming soon</span>
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © 2026 Big Black Clydesdale ($BBC). All rights reserved.
+</footer>
+
+</body>
+</html>
+
